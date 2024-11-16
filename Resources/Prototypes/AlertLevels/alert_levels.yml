@@ -77,3 +77,14 @@
       emergencyLightColor: Pink
       forceEnableEmergencyLights: true
       shuttleTime: 1200
+    white:
+      announcement: alert-level-white-announcement
+      sound: /Audio/_Impstation/Misc/white.ogg
+      color: White
+      emergencyLightColor: White
+      forceEnableEmergencyLights: true
+      shuttleTime: 600
+      params:
+        volume: 1
+      
+      
