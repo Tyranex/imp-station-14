@@ -43,6 +43,15 @@
   price: 0.15
 
 - type: material
+  id: RawTitanium
+  stackEntity: TitaniumOre1
+  name: materials-raw-Titanium
+  unit: materials-unit-chunk
+  icon: { sprite: Objects/Materials/ore.rsi, state: titanium }
+  color: "#FFFFFF"
+  price: 0.25
+
+- type: material
   id: RawPlasma
   stackEntity: PlasmaOre1
   name: materials-raw-plasma

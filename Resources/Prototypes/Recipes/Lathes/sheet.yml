@@ -234,3 +234,20 @@
   completetime: 1
   materials:
     Wood: 50
+
+- type: latheRecipe
+  id: SheetTitanium
+  result: SheetTitanium1
+  completetime: 0
+  materials:
+    RawTitanium: 100
+    Coal: 30
+
+- type: latheRecipe
+  id: SheetPlastitanium
+  result: SheetPlastitanium1
+  completetime: 0
+  materials:
+    RawPlasma: 100
+    RawTitanium: 200 #Twice as durable as steel, Twice the material cost
+    Coal: 30

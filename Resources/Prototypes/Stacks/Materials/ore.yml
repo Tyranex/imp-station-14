@@ -4,7 +4,7 @@
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: gold }
   spawn: GoldOre1
   maxCount: 30
-  
+
 - type: stack
   id: DiamondOre
   name: rough diamond
@@ -17,6 +17,13 @@
   name: iron ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: iron }
   spawn: SteelOre1
+  maxCount: 30
+
+- type: stack
+  id: TitaniumOre
+  name: titanium ore
+  icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: titanium }
+  spawn: TitaniumlOre1
   maxCount: 30
 
 - type: stack

@@ -89,6 +89,24 @@
     - !type:TileNotBlocked
 
 - type: construction
+  name: plastitanium Wall
+  id: PlastitaniumWall
+  graph: Girder
+  startNode: start
+  targetNode: plastitaniumWall
+  category: construction-category-structures
+  description: Keeps the air in and the greytide out.
+  icon:
+    sprite: Structures/Walls/solid.rsi
+    state: rgeneric
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+  canBuildInImpassable: false
+  conditions:
+  - !type:TileNotBlocked
+
+- type: construction
   name: clock wall
   id: WallClock
   graph: ClockworkGirder

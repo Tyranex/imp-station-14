@@ -35,6 +35,12 @@
       maxGroupSize: 15
     - !type:OreDunGen
       replacement: IronRock
+      entity: IronRockTitanium
+      count: 50
+      minGroupSize: 10
+      maxGroupSize: 15
+    - !type:OreDunGen
+      replacement: IronRock
       entity: IronRockCoal
       count: 50
       minGroupSize: 8

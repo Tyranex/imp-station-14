@@ -9,6 +9,12 @@
   maxOreYield: 5
 
 - type: ore
+  id: OreTitanium
+  oreEntity: TitaniumOre1
+  minOreYield: 1
+  maxOreYield: 5
+
+- type: ore
   id: OreSpaceQuartz
   oreEntity: SpaceQuartz1
   minOreYield: 1

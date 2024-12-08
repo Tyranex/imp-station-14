@@ -1304,6 +1304,8 @@
     timeMultiplier: 0.5
     staticRecipes:
       - SheetSteel
+      - SheetTitanium
+      - SheetPlastitanium
       - SheetGlass1
       - SheetRGlass
       - SheetPlasma1

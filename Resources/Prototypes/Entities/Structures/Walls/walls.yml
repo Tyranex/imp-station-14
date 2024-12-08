@@ -483,8 +483,13 @@
                 Girder:
                   min: 1
                   max: 1
+            - !type:ChangeConstructionNodeBehavior
+              node: girder
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
+    - type: Construction
+      graph: Girder
+      node: plastitaniumWall
 
 - type: entity
   parent: WallShuttleDiagonal
