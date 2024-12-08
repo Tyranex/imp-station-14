@@ -12,6 +12,8 @@
   femaleFirstNames: names_spelf
   naming: First
   sexes:
+  - Male
+  - Female
   - Unsexed
 
 - type: speciesBaseSprites
@@ -53,7 +55,7 @@
       points: 1
       required: false
     Arms:
-      points: 2
+      points: 4
       required: false
     Overlay:
       points: 6

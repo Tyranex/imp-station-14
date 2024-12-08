@@ -219,6 +219,7 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
+    - GlassesSecurity
   - type: GuideHelp
     guides:
     - Security
@@ -246,27 +247,6 @@
   - type: IdentityBlocker
     coverage: EYES
   - type: ShowJobIcons
-
-- type: entity
-  parent: [ClothingEyesBase, BaseCommandContraband]
-  id: ClothingEyesGlassesCaptainvisor
-  name: captain's visor
-  description: "A sleek visor that provides flash immunity and shows ID card status. Secured on your face with futuristic microgravity devices."
-  components:
-  - type: Sprite
-    sprite: Clothing/Eyes/Glasses/captainvisor.rsi
-  - type: Clothing
-    sprite: Clothing/Eyes/Glasses/captainvisor.rsi
-  - type: FlashImmunity
-  - type: EyeProtection
-    protectionTime: 5
-  - type: Tag
-    tags:
-    - WhitelistChameleon
-  - type: IdentityBlocker
-    coverage: EYES
-  - type: ShowJobIcons
-
 
 - type: entity
   parent: [ClothingEyesBase, BaseLensSlot]
